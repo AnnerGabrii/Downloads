@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('../images/hero.png');
+    background-size: cover;
+    /* Ajusta a imagem para cobrir toda a área */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+}
+
+.answer-error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+
+.answer-correct {
+    border: 2px solid green;
+    background-color: #e6ffe6;
+}
+
+
+
+.quiz-container {
+    background-color: white;
+    padding: 30px;
+    /* Aumenta o padding para dar mais espaço interno */
+    border-radius: 15px;
+    /* Aumenta o border-radius para bordas mais arredondadas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    /* Ajusta a sombra para uma aparência mais suave */
+    width: 400px;
+    /* Aumenta a largura do container */
+    min-height: 500px;
+    /* Define uma altura mínima para o container */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quiz-header {
+    margin-bottom: 30px;
+    /* Ajusta a margem inferior */
+    font-size: 1.5em;
+    /* Aumenta o tamanho da fonte do cabeçalho */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* Remove margens padrão */
+    display: flex;
+    flex-direction: column;
+    /* Alinha as alternativas verticalmente */
+    align-items: center;
+    /* Centraliza os itens horizontalmente */
+}
+
+li {
+    margin: 10px 0;
+    /* Espaçamento entre itens */
+    width: 100%;
+    /* Faz com que os itens ocupem a largura total do container */
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 12px;
+    /* Aumenta o padding para botões maiores */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    /* Faz com que o botão ocupe toda a largura do item */
+    font-size: 1em;
+    /* Ajusta o tamanho da fonte do botão */
+}
+
+button:hover {
+    background-color: #45a049;
+}
